@@ -1,0 +1,22 @@
+{
+  "name": "Arshad Kazmi",
+  "email": "arshadkazmi42@gmail.com",
+  "username": {
+    "github": "arshadkazmi42",
+    "twitter": "arshadkazmi42"
+  },
+  "photo_url": "https://github.com/arshadkazmi42/arshadkazmi42.github.io/assets/profile.jpg",
+  "background_url": "http://2.bp.blogspot.com/-Ro77vjq-DAE/UzVYi6rTQqI/AAAAAAAADhE/dEKklXbYiFs/s1600/Trust+Me,+Ix27m+A+Programmer+BY+PCbots.png",
+  "projects": [
+    {
+      "url": "https://github.com/arshadkazmi42/simple-date-validator",
+      "name": "Simple Date Validator",
+      "language": "Javascript"
+    },
+    {
+      "url": "https://github.com/arshadkazmi42/general-feedback",
+      "name": "General Feeback (Android)",
+      "language": "Java"
+    }
+  ]
+}
