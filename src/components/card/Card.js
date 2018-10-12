@@ -7,12 +7,12 @@ import './style.css';
 
 const topStyle = {
   height: '70%',
-  'border-top-left-radius': '10px',
-  'border-top-right-radius': '10px',
+  'borderTopLeftRadius': '10px',
+  'borderTopRightRadius': '10px',
   'overflow': 'hidden',
-  'background-image': `url(${DATA.background_url})`,
-  'background-size': 'cover',
-  'background-repeat': 'no-repeat'
+  'backgroundImage': `url(${DATA.background_url})`,
+  'backgroundSize': 'cover',
+  'backgroundRepeat': 'no-repeat'
 };
 
 
@@ -24,7 +24,7 @@ class Card extends Component {
         <div className='card'>
           <div style={topStyle}>
             <a href={`https://github.com/${DATA.username.github}`}>
-              <button class='button-complete-profile'>Complete Profile</button>
+              <button className='button-complete-profile'>Complete Profile</button>
             </a>
           </div>
           <div className='bottom'>
@@ -50,10 +50,10 @@ class Card extends Component {
               </div>
               <div className='bottom-column-right'>
                 {
-                  DATA.projects.map((project) => {
+                  DATA.projects.map((project, index) => {
                     return (
-                      <div className='bottom-right-box'>
-                        <div class='bottom-right-row'>
+                      <div key={index} className='bottom-right-box'>
+                        <div className='bottom-right-row'>
                           <img className='icon' src={Project} alt='Pull Request' />
                           <div style={{marginLeft: '5px', padding: 'auto'}}>
                             <a className='project-name' href={project.url}>{project.name}</a>
@@ -69,7 +69,7 @@ class Card extends Component {
             </div>
           </div>
         </div>
-        <img class='profile' src={DATA.photo_url} alt='arshad' />
+        <img className='profile' src={DATA.photo_url} alt='arshad' />
       </React.Fragment>
     )
   }

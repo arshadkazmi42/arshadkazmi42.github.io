@@ -6,16 +6,16 @@ import './App.css';
 import DATA from './data/data.json';
 
 const appHeaderStyle = {
-  'background-color': '#282c34',
-  'background-image': `url(${DATA.background_url})`,
-  'background-size': 'cover',
-  'background-repeat': 'no-repeat',
-  'min-height': '100vh',
+  'backgroundColor': '#282c34',
+  'backgroundImage': `url(${DATA.background_url})`,
+  'backgroundSize': 'cover',
+  'backgroundRepeat': 'no-repeat',
+  'minHeight': '100vh',
   'display': 'flex',
-  'flex-direction': 'column',
-  'align-items': 'center',
-  'justify-content': 'center',
-  'font-size': 'calc(10px + 2vmin)',
+  'flexDirection': 'column',
+  'alignItems': 'center',
+  'justifyContent': 'center',
+  'fontSize': 'calc(10px + 2vmin)',
   'color': 'white'
 }
 
