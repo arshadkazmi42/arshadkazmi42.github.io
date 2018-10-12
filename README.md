@@ -5,7 +5,7 @@ This is a simple profile card app build in ReactJs. It uses a JSON file for mana
 ## How to use
 
 - Clone the repo.
-- Checkout to `develop` branch using this command `git checkout develop` (Source code is available in the develop branch).
+- Checkout to `develop` branch using this command `git checkout develop` (Source code is available in the `develop` branch).
 - Run `yarn install` to install all the dependencies.
 - Change the data in `src/data/data.json` file.
 - Run `yarn start` to start the application.
@@ -47,7 +47,7 @@ To contribute to this repo follow these below steps
   - `git commit -m "your commit message"`
   - `git push origin feature-branch`
 - Go to `https://github.com/arshadkazmi42/arshadkazmi42.github.io`
-- Create Pull Request
+- Create Pull Request againts `develop` branch
 - Add a suitable title and description to the pull request and tag the issue number in Pull Request description, if the pull request is related to some issue logged here `https://github.com/arshadkazmi42/arshadkazmi42.github.io/issues`
 - You're done. Wait for your code to get reviewed and merge
 
