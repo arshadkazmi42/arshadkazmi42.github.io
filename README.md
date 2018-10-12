@@ -34,24 +34,8 @@ This is a simple profile card app build in ReactJs. It uses a JSON file for mana
 ## Contributing
 
 We would love to improve this application, we welcome all types of contribution to this application.
-To contribute to this repo follow these below steps
+To contribute to this repo follow [these steps](https://github.com/arshadkazmi42/arshadkazmi42.github.io/edit/develop/contribution.md)
 
-- Fork the repo
-- Clone the repo
-- Create a branch using `git checkout -b feature-branch`
-- Make the required changes
-- Run below command to verify nothing is broken
-  - `yarn build`
-  - `yarn start`
-- Check the running application at `http://localhost:3000`
-- If everything is working fine, then create a pull request using below commands
-  - `git add --all`
-  - `git commit -m "your commit message"`
-  - `git push origin feature-branch`
-- Go to [my github page](https://github.com/arshadkazmi42/arshadkazmi42.github.io/)
-- Create Pull Request againts `develop` branch
-- Add a suitable title and description to the pull request and tag the issue number in Pull Request description, if the pull request is related to some issue logged here: [Issues](https://github.com/arshadkazmi42/arshadkazmi42.github.io/issues)
-- You're done. Wait for your code to get reviewed and merge
 
 ## Contributors
 [![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/0)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/0)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/1)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/1)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/2)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/2)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/3)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/3)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/4)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/4)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/5)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/5)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/6)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/6)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/images/7)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/arshadkazmi42.github.io/links/7)
