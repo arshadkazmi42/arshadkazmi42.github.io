@@ -34,7 +34,7 @@ This is a simple profile card app build in ReactJs. It uses a JSON file for mana
 ## Contributing
 
 We would love to improve this application, we welcome all types of contribution to this application.
-To contribute to this repo follow [these steps](https://github.com/arshadkazmi42/arshadkazmi42.github.io/edit/develop/contribution.md)
+To contribute to this repo follow [these steps](CONTRIBUTING.md)
 
 
 ## Contributors
