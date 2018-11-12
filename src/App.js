@@ -25,6 +25,12 @@ class App extends Component {
       <div className="App">
         <header style={appHeaderStyle}>
           <Card />
+          <div className="footer">
+            <a class="github-button" href="https://github.com/arshadkazmi42/arshadkazmi42.github.io/subscription" data-icon="octicon-eye" aria-label="Watch arshadkazmi42/arshadkazmi42.github.io on GitHub">Watch</a>
+            &nbsp;&nbsp;<a className="github-button footer-item" href="https://github.com/arshadkazmi42/arshadkazmi42.github.io" data-icon="octicon-star" aria-label="Star arshadkazmi42/arshadkazmi42.github.io on GitHub">Star</a>
+            &nbsp;&nbsp;<a className="github-button footer-item" href="https://github.com/arshadkazmi42" aria-label="Follow @arshadkazmi42 on GitHub">Follow @arshadkazmi42</a>
+            &nbsp;&nbsp;<a class="github-button" href="https://github.com/arshadkazmi42/arshadkazmi42.github.io/fork" data-icon="octicon-repo-forked" aria-label="Fork arshadkazmi42/arshadkazmi42.github.io on GitHub">Fork</a>
+          </div>
         </header>
       </div>
     );
