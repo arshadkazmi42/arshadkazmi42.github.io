@@ -1,4 +1,4 @@
-How to use
+## How to use
 
 - Clone the repo.
 - Checkout to `develop` branch using this command `git checkout develop` (Source code is available in the `develop` branch).
