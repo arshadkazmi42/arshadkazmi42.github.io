@@ -1,4 +1,4 @@
-## Deploy on github pages
+Deploy on github pages
 
 - Create a new repo `yourusername.github.io`.
 - Initialize this project to your repo.
