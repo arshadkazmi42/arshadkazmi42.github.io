@@ -1,5 +1,6 @@
 .App {
-  text-align: left;
+  width: 100%;
+  font-family: Lato
 }
 
 .App-logo {
@@ -8,17 +9,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  background-image: url("https://i.ytimg.com/vi/fkDSE5joeIo/maxresdefault.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,11 +34,97 @@
 
 .footer {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  bottom: 30px;
   z-index: 10;
 }
 
 .footer-item {
+  margin: 5px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  
+}
+
+.profile {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.name {
+  font-size: 40px;
+  margin-top: 12px;
+  font-weight: bold;
+  font-family: 'Lato'
+}
+
+.tag-line {
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #454444;
+  text-align: center;
+}
+
+.summary {
+  margin-top: 7px;
+  font-size: 15px;
+  color: #454444;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+.image-container {
+  margin-top: 12px;
+}
+
+.image {
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.support {
+  margin-top:20px;
+}
+
+.support-tag-line {
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #454444;
+  text-align: center;
+  font-family: 'Open Sans'
+}
+
+a {
+  margin: 5px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #3273dc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #363636;
+}
+
+.github {
+  margin-top: 10px;
+}
+
+.box {
   margin: 5px;
 }
