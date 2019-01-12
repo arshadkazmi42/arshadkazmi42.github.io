@@ -1,37 +1,32 @@
 import React, { Component } from 'react';
+import { Email, Github, Twitter } from './assets';
 
-import { Card } from './components'
-
-import './App.css';
 import DATA from './data/data.json';
-
-const appHeaderStyle = {
-  'backgroundColor': '#282c34',
-  'backgroundImage': `url(${DATA.background_url})`,
-  'backgroundSize': 'cover',
-  'backgroundRepeat': 'no-repeat',
-  'minHeight': '100vh',
-  'display': 'flex',
-  'flexDirection': 'column',
-  'alignItems': 'center',
-  'justifyContent': 'center',
-  'fontSize': 'calc(10px + 2vmin)',
-  'color': 'white'
-}
+import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header style={appHeaderStyle}>
-          <Card />
-          <div className="footer">
-            <a class="github-button" href="https://github.com/arshadkazmi42/arshadkazmi42.github.io/subscription" data-icon="octicon-eye" aria-label="Watch arshadkazmi42/arshadkazmi42.github.io on GitHub">Watch</a>
-            &nbsp;&nbsp;<a className="github-button footer-item" href="https://github.com/arshadkazmi42/arshadkazmi42.github.io" data-icon="octicon-star" aria-label="Star arshadkazmi42/arshadkazmi42.github.io on GitHub">Star</a>
-            &nbsp;&nbsp;<a className="github-button footer-item" href="https://github.com/arshadkazmi42" aria-label="Follow @arshadkazmi42 on GitHub">Follow @arshadkazmi42</a>
-            &nbsp;&nbsp;<a class="github-button" href="https://github.com/arshadkazmi42/arshadkazmi42.github.io/fork" data-icon="octicon-repo-forked" aria-label="Fork arshadkazmi42/arshadkazmi42.github.io on GitHub">Fork</a>
-          </div>
-        </header>
+      <div className='profile'>
+        <img className='photo' src={DATA.photo_url} alt={DATA.name} />
+        <span className='name'>{DATA.name}</span>
+        <span className='tag-line'>{DATA.tag_line}</span>
+        <div className='image-container'>
+          <a href={`mailto:${DATA.email}`} target="_blank" rel="noopener noreferrer">
+            <img alt='name' className='image' src={Email} />
+          </a>
+          <a href={`https://github.com/${DATA.username.github}`} target="_blank" rel="noopener noreferrer">
+            <img alt='Github' className='image' src={Github} />
+          </a>
+          <a href={`https://twitter.com/${DATA.username.twitter}`} target="_blank" rel="noopener noreferrer">
+            <img alt='Twitter' className='image' src={Twitter} />
+          </a>
+        </div>
+        <span className='summary' dangerouslySetInnerHTML={{__html: DATA.summary}} />
+        <span className='support-tag-line' dangerouslySetInnerHTML={{__html: DATA.patreon}} />
+        <a className='support' href="https://www.patreon.com/bePatron?u=15454240" target="_blank" rel="noopener noreferrer">
+          <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41" />
+        </a>
       </div>
     );
   }

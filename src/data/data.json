@@ -1,12 +1,20 @@
 {
   "name": "Arshad Kazmi",
   "email": "arshadkazmi42@gmail.com",
+  "tag_line": "{ Software Developer } - { Opensource Contributor }",
+  "summary": "{ NodeJs } - { ReactJs } - { SailsJs } - { Python } - { Android }",
+  "patreon": "If you like my work or use any of projects, consider supporting.<br>Your support will help me give more time to opensource software development.",
   "username": {
     "github": "arshadkazmi42",
-    "twitter": "arshadkazmi42"
+    "twitter": "arshadkazmi42",
+    "facebook": "arshadkazmi42",
+    "linkedin": "arshadkazmi42"
   },
   "photo_url": "https://raw.githubusercontent.com/arshadkazmi42/arshadkazmi42.github.io/develop/assets/profile.jpg",
   "background_url": "http://2.bp.blogspot.com/-Ro77vjq-DAE/UzVYi6rTQqI/AAAAAAAADhE/dEKklXbYiFs/s1600/Trust+Me,+Ix27m+A+Programmer+BY+PCbots.png",
+  "links": {
+    "portfolio": "http://arshad.kaspat.com"
+  },
   "projects": [
     {
       "url": "https://github.com/arshadkazmi42/simple-date-validator",
