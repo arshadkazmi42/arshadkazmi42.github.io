@@ -1,8 +1,8 @@
-# Profile Card
+# Developer Profile
 
 This is a simple profile card app build in ReactJs. It uses a JSON file for managing data. Data is fetched from the JSON file and it is shown in the UI.
 
-![alt text](assets/img.png "Profile Card Example")
+![alt text](assets/snap.png "Profile Snapshot")
 
 ## How to use
 
