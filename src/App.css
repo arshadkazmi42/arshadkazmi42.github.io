@@ -95,6 +95,10 @@
   height: 30px;
 }
 
+.support-container {
+  display: flex;
+}
+
 .support {
   margin-top:20px;
 }
