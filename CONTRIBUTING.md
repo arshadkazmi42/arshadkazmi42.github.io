@@ -8,8 +8,8 @@ To contribute to this repo follow these below steps
 - Create a branch using `git checkout -b feature-branch`
 - Make the required changes
 - Run below command to verify nothing is broken
-  - `yarn build`
-  - `yarn start`
+  - `npm run build`
+  - `npm start`
 - Check the running application at `http://localhost:3000`
 - If everything is working fine, then create a pull request using below commands
   - `git add --all`
