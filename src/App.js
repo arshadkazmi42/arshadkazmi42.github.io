@@ -25,12 +25,7 @@ class App extends Component {
         <span className='summary' dangerouslySetInnerHTML={{__html: DATA.summary}} />
         <span className='support-tag-line' dangerouslySetInnerHTML={{__html: DATA.patreon}} />
         <div className='support-container'>
-          <a className='support' href="https://www.patreon.com/bePatron?u=15454240" target="_blank" rel="noopener noreferrer">
-            <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="39" />
-          </a>
-          <a className='support' href="https://www.buymeacoffee.com/arshadkazmi42" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" />
-          </a>
+          <iframe className='sponsor' src="https://github.com/sponsors/arshadkazmi42/button" title="Sponsor arshadkazmi42" height="35" width="116"></iframe>
         </div>
       </div>
     );

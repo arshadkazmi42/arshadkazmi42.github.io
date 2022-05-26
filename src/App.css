@@ -105,11 +105,16 @@
 
 .support-tag-line {
   margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 15px;
   font-weight: 400;
   color: #454444;
   text-align: center;
   font-family: 'Open Sans'
+}
+
+.sponsor {
+  border: 0;
 }
 
 a {
