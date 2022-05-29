@@ -1,0 +1,138 @@
+.card {
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  width: 600px;
+  height: 350px;
+  background-color: aliceblue;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 0.5;
+}
+
+h2 {
+  color: #000011;
+  font-size: 12px;
+  line-height: 0.5;
+  opacity: 0.3;
+}
+
+.projects-title {
+  color: #000011;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0.5;
+  opacity: 0.3;
+  margin: 5px 10px 15px 10px;
+  text-align: center;
+}
+
+.project-name {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.view-more {
+  margin: 10px;
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.3;
+  margin-top: 20px;
+}
+
+.social-box {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 5px solid #ffffff;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -350px
+}
+
+.button-complete-profile {
+  height: 40px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #5da6df;
+  border: 1px solid #62C5F9;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: 80px;
+}
+
+.top-bg {
+  width: 600px;
+  height: 100%;
+  max-height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottom {
+  background-color: #ffffff;
+  height: 100%;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bottom-column {
+  display: flex;
+}
+
+.bottom-column-left {
+  flex: 2;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bottom-column-right {
+  flex: 3;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.bottom-right-box {
+  border: 1px solid rgb(240, 238, 238);
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bottom-right-row {
+  display: flex;
+  align-items: center;
+}

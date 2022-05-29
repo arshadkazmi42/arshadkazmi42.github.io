@@ -1,0 +1,5 @@
+export { default as Email } from './email.png'
+export { default as Github } from './github.png'
+export { default as LinkedIn } from './linkedin.png'
+export { default as Project } from './project.png'
+export { default as Twitter } from './twitter.png'
